@@ -1,4 +1,4 @@
-# Explaination
+# Explanation
 This recipe takes into account that the base64 might be compressed (deflated) and thus we need to inflate it again before we can return it.
 
 # Chef Formatted Code
