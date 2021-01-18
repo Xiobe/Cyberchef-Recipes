@@ -12,3 +12,12 @@ I don't have actual data from other parts of the world so my recipe is for EMEA 
 > URL_Decode()
 >
 > Extract_domains(true)
+
+# Chef Formatted Code for sharing URLs
+> Split('https://emea01.safelinks.protection.outlook.com/?url=','\\n')
+>
+> URL_Decode()
+>
+> Extract_domains(true)
+>
+> Defang_URL(true,true,true,'Valid domains and full URLs')
